@@ -52,7 +52,7 @@ public class TestMainPage extends TestBase {
 
 
 
-    @ParameterizedTest(name = "Проверяем, что начали раздавать бесплатные деньги, выдали {0} руб")
+    @ParameterizedTest(name = "Проверяем, что вкладка {0} открывается")
     @Tag("WEB")
     @ValueSource(strings = {
             "Вклады","Займы","Карты"
