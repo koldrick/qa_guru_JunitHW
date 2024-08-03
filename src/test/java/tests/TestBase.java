@@ -7,7 +7,7 @@ public class TestBase {
     @BeforeAll
     static void beforeAll(){
         Configuration.browserSize = "1920x1080";
-        Configuration.baseUrl= "https://www.banki.ru/services/calculators/hypothec/";
+        Configuration.baseUrl= "https://www.banki.ru/";
         Configuration.pageLoadStrategy = "eager";
 
     }
